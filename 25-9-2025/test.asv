@@ -1,0 +1,5 @@
+clc;
+u=2;
+v=-1;
+result = (u^2+v^2-u*v)(u+v)*(u-v)
+

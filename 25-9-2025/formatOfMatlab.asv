@@ -1,0 +1,4 @@
+%% initializing matlab
+clc; %
+close all% additional figure window(G
+clear all; % workspace clearing

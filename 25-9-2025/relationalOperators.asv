@@ -1,0 +1,23 @@
+%% 
+clear;
+clc;
+close;
+
+%%
+x=5; %  = -> Assign
+x==0; % == -> Logical Check, is x equal to 0 {Relational}
+x>-2; % greater than/ less than etc.
+x<=5; % greater or less EQUAL
+x~=12; % ~ for NOT EQUAL
+%%
+% 1st arithmatics then the relational operators,
+% NO Precidence for relational operators, Normaly LEFT TO RIGHT
+
+logicalVar = 3>5>-5;
+% 1st 3>5    --->
+
+logicVAr2 = 3+5>5+1;
+% qst do arithmatics, then the relational happens
+
+
+
