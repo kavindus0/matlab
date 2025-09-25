@@ -52,16 +52,24 @@ title("Sin and Cosine Graph")
 grid on;
 
 legend('Sin(x)','Cos(x)')
-%%
+%% SUB PLPOTS
 x=[-10:0.01:10];
 y=3*x.^4+2*x.^3+7*x.^2+2*x+9;
 g=5*x.^3+9*x+2;
-plot(x,y,'r',x,g,'b')
+z = sin(x)
+%plot(x,y,'r',x,g,'b')
 %axis [-5 5 -1 1]
-%% SUB PLPOTS
 
 
+subplot(3,1,1)
+plot(x,y)
 
+subplot(3,1,2)
+plot(x,g);
+
+
+subplot(3,1,3)
+plot(x,z);
 
 
 
