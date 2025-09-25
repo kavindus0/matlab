@@ -41,8 +41,19 @@ clear all;
 close all;
 clc;
 
-x=[0:0.01
+x=[0:0.01:10]
+y = sin(x)
+g = cos(x)
+figure;
+plot(x,y,x,g,'b--');
+xlabel('X Values');
+ylabel('Y Values');
+title("Sin and Cosine Graph")
+grid on;
 
+legend('Sin(x)','Cos(x)')
+%%
+x=[-10:0.01:10]
 
 
 
